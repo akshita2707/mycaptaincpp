@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  int data[5];
+  cout<<"Enter elements: ";
+  
+  for(int j=0; j<5; ++j)
+    cin>>data[j];
+    
+  cout<<"You entered: ";
+  
+  for(int j=0; j<5; ++j)
+    cout<<*(data+j);
+    
+    return 0;
+}
